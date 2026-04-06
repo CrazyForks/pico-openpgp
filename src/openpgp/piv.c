@@ -18,8 +18,6 @@
 #ifdef ESP_PLATFORM
 #include "esp_compat.h"
 #define MBEDTLS_ALLOW_PRIVATE_ACCESS
-#else
-#include "common.h"
 #endif
 #include "files.h"
 #include "apdu.h"
